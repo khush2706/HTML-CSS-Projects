@@ -1,0 +1,78 @@
+body{
+  background-image: url(images/background.jpeg);
+  background-size: cover;
+  padding-top: 90px;
+}
+.card-image-top{
+  width: 330px;
+  height: 250px;
+    border-radius: 15px 15px 0 0;
+}
+
+.card{
+  width: 330px;
+  height: 600px;
+  margin: auto;
+  border-radius: 15px;
+  border-width: 0;
+  position: relative;
+}
+
+.card-footer{
+  text-align: center;
+  background-color: #F0A500;
+  border-radius: 0 0 15px 15px !important;
+}
+
+.card-text{
+  color: #8f8f8f;
+  font-size: 0.8rem;
+}
+
+.card-body{
+  padding: 20px 30px;
+}
+
+.card-number{
+  font-size: 0.9rem;
+}
+
+h2{
+  font-size: 1.4rem;
+}
+
+.text-block{
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.shoe-name{
+  color: #8f8f8f;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.shoe-price{
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.decimal{
+  font-size: 0.8rem;
+}
+
+.card-logo{
+  width: 35px;
+  height: 20px;
+  margin-left: 80px;
+}
+
+.number{
+  display: inline-block;
+  width: 144.45;
+}
+
+hr{
+  margin-top: 0;
+}
