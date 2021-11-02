@@ -33,10 +33,11 @@ nav {
   width: 94px !important;
   min-width: 0;
   background-color: grey;
+  text-align: center;
 }
 
-.dropdown-item{
-  color: #fff!important;
+.dropdown-item {
+  color: #fff !important;
 }
 
 .btn {
@@ -45,9 +46,10 @@ nav {
   color: #fff;
 }
 
-.btn:hover{
-  color: #fff!important;
+.btn:hover {
+  color: #fff !important;
 }
+
 .dropdown-menu {
   padding: 0 !important;
   font-size: 14px;
@@ -86,33 +88,32 @@ header {
   width: 50%;
   text-align: center;
   color: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .main-title {
   font-size: 3.5rem;
   width: 78%;
   letter-spacing: 1.6px;
-font-weight: 700;
-margin-bottom: -10px;
+  font-weight: 700;
+  margin-bottom: -10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.main-subtitle{
+.main-subtitle {
   font-weight: 400;
   margin-bottom: 0;
 }
 
-.main-call-to-action{
+.main-call-to-action {
   font-weight: 400;
   margin-bottom: 15px;
 }
+
 .top-section::before {
   position: absolute;
   content: "";
-  background-image: radial-gradient(rgba(0,0,0,0.3), rgba(0,0,0,1)) ,url(assets/background-img.jpg);
+  background-image: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url(assets/background-img.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -122,19 +123,18 @@ margin-bottom: -10px;
   top: 0;
   z-index: -1;
 }
-
-.email{
+.email {
   height: 60px;
   width: 100%;
   padding: 2px 10px 0;
   font-size: 18px;
 }
 
-.email:focus{
+.email:focus {
   outline: none;
 }
 
-.email-input-button{
+.email-input-button {
   background: #e50914;
   color: #fff;
   font-weight: 400;
@@ -162,11 +162,37 @@ margin-bottom: -10px;
   -webkit-transform: rotate(-45deg);
 }
 
-@media (max-width: 992px) {
-  .main-titles-container{
-    width:68%;
+@media (min-width: 1200px) {
+  .email-container{
+    width: 100%;
+    display: flex;
   }
-  .main-title{
+  .email{
+    width: 65%;
+  }
+  .email-input-button{
+    height: 60px;
+    bottom: 0;
+    margin-top: 0;
+    width: 35%;
+    font-size: 30px;
+    padding-bottom: 5px;
+  }
+  .arrow{
+    border-width: 0 2px 2px 0;
+    bottom: 3px;
+    padding: 6px;
+    margin: 0 -6px;
+    left: 6px;
+  }
+}
+
+@media (max-width: 992px) {
+  .main-titles-container {
+    width: 68%;
+  }
+
+  .main-title {
     width: 100%;
     font-size: 3.124rem;
     letter-spacing: 0.5px;
