@@ -80,8 +80,9 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 85vh;
+  height: 80vh;
   width: 100%;
+  border-bottom: 8px solid #222;
 }
 
 .main-titles-container {
@@ -91,9 +92,9 @@ header {
 }
 
 .main-title {
-  font-size: 3.5rem;
+  font-size: 3rem;
   width: 78%;
-  letter-spacing: 1.6px;
+  letter-spacing: 1px;
   font-weight: 700;
   margin-bottom: -10px;
   margin-left: auto;
@@ -198,4 +199,31 @@ header {
     letter-spacing: 0.5px;
     font-weight: 500;
   }
+}
+
+/*Second Section*/
+.second-section{
+  background-color: black;
+  color: white;
+}
+
+.second-title{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    
+}
+
+.second-content{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+.second-space-text{
+  padding: 80px 65px;
+  padding-left: 100px;
+}
+
+.second-space-image{
+  padding-top: 50px;
 }
