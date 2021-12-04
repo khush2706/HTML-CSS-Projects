@@ -202,7 +202,7 @@ header {
 }
 
 /*Second Section*/
-.second-section{
+.second-section,.third-section,.fourth-section{
   background-color: black;
   color: white;
   border-bottom: 8px solid #222;
@@ -211,7 +211,7 @@ header {
 .second-title{
     font-size: 3.125rem;
     line-height: 1.1;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
     
 }
 
@@ -234,4 +234,8 @@ header {
 .third-space-image{
   padding-left: 120px;
   padding-top: 30px;
+}
+
+.fourth-space-image{
+  margin-left: 50px;
 }
